@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: #05797C;
+}
+
+.fond {
+    min-height: 100vh;
+    min-width: auto;
+    background-color: #202023;
+    border: 2px red solid;
+    padding: 0;
+}
+
+header {
+    background-color: #2C1F1F;
+    min-height: 12vh;
+    border-radius: 0px 0px 40px 40px;
+    margin: 0;
+}
+
+footer {
+    background-color: #2C1F1F;
+    min-height: 12vh;
+    border-radius: 40px 40px 0px 00px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    min-height: 11vh;
+    font-size: 18pt;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu {
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 10vw 5vw 5vw;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-around;
+}
