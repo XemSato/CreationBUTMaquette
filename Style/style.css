@@ -47,3 +47,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+.titre {
+    background-color: rgba(108, 74, 111, 0.32);
+}

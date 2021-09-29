@@ -32,7 +32,7 @@ new propotialStyle({
     reference: "#fond",
     styles: {
 
-        "transform": "translate(${coef*125}vh, ${coef*98}vh)"
+        "transform": "translate(${coef*45}vw, ${coef*45}vw)"
 
     }
 });
