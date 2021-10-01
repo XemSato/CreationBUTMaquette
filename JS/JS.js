@@ -31,8 +31,7 @@ new propotialStyle({
     target: ".casque",
     reference: "#fond",
     styles: {
-
-        "transform": "translate(${coef*45}vw, ${coef*45}vw)"
-
+        
+        "transform": "translate(${coef*40}vw, ${coef*45}vw) rotate(${coef*45}deg)"
     }
 });

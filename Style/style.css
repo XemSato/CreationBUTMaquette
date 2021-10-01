@@ -8,7 +8,7 @@ body {
 }
 
 .fond {
-    min-height: 100vh;
+    min-height: 99vh;
     min-width: auto;
     background-color: #202023;
     border: 2px red solid;
@@ -45,9 +45,47 @@ footer {
 
 .flex2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.cate {
+    margin-top: 5vh;
 }
 
 .titre {
+    margin-top: 30px;
     background-color: rgba(108, 74, 111, 0.32);
+    padding: 10px;
+    border: 1px solid rgba(108, 74, 111, 0.32);
+    font-size: 22pt;
+}
+
+.info {
+    margin-top: 4vh;
+    background-color: #141D35;
+    min-height: 20vh;
+    padding: 30px;
+    font-size: 18pt;
+}
+
+.info>li {
+    padding: 15px;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat>img {
+    width: 50px;
+    height: 50px;
+}
+
+.casque {
+    height: 80vh;
+    width: auto;
+    position: relative;
+    
 }
