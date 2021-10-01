@@ -34,4 +34,4 @@ new propotialStyle({
         
         "transform": "translate(${coef*40}vw, ${coef*45}vw) rotate(${coef*45}deg)"
     }
-});
+})
