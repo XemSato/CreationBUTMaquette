@@ -52,6 +52,40 @@ function anime(){
     document.querySelector(".Image3").classList.toggle("image3_3");
     document.querySelector(".lien").classList.toggle("lien2");
     document.querySelector(".Sp").classList.toggle("Sp2")
+    document.querySelector(".textM").classList.toggle("textM2")
 }
 
-document.querySelector(".lien").addEventListener("click", anime)
+document.querySelector(".lien").addEventListener("click", anime);
+
+
+//fonction depuis l'HTML -> True
+function texte2(){
+    document.querySelector(".textM").classList.add("textM3")
+    document.querySelector(".textM").innerText= `fonctionne en bluethoot ! ou part cable !`;
+};
+
+function texte2_1(){
+    document.querySelector(".textM").classList.remove("textM3");
+    document.querySelector(".textM").innerHTML = `<div class="textM textM2"></div>`;
+};
+
+// Fonctionne depuis le JS ?  -> false
+
+// Fonctionne depuis le HTML -> false 
+
+//document.querySelector(".Image1").addEventListener("mouseenter", texte1);
+
+function texte1(){
+    document.querySelector(".textM").classList.add("textM4");
+  document.querySelector(".textM").innerText = `<div class="textM textM2"> Dispose d'un socle pour le recharger (permet faire une statue !) </p></div><p>`;
+};
+
+//document.querySelector(".Image1").addEventListener("mouseleave", texte1_1);
+
+function texte1_1(){
+    document.querySelector(".textM").classList.remove("textM4");
+    document.querySelector(".textM").innerText += `<div class="textM textM2"></div>`;
+};
+
+
+
