@@ -6,6 +6,7 @@ html {
 body {
     margin: 0;
     color: #D4B47B;
+    font-family: 'Times New Roman', Times, serif;
 }
 @font-face {
     font-family: 'Amplify';
@@ -362,6 +363,7 @@ footer{
 }
 
 .PresentationF{
+    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 10px;
     max-width: 25vw;
     min-height: 20vh;
