@@ -61,7 +61,8 @@ document.querySelector(".lien").addEventListener("click", anime);
 //fonction depuis l'HTML -> True
 function texte2(){
     document.querySelector(".textM").classList.add("textM3")
-    document.querySelector(".textM").innerText= `fonctionne en bluethoot ! ou part cable !`;
+    document.querySelector(".textM").innerText= `fonctionne en bluethoot ! ou part cable !
+    peut se rechargé sur un socle transportable`;
 };
 
 function texte2_1(){
@@ -75,17 +76,17 @@ function texte2_1(){
 
 //document.querySelector(".Image1").addEventListener("mouseenter", texte1);
 
-function texte1(){
-    document.querySelector(".textM").classList.add("textM4");
-  document.querySelector(".textM").innerText = `<div class="textM textM2"> Dispose d'un socle pour le recharger (permet faire une statue !) </p></div><p>`;
-};
+// function texte1(){
+//     document.querySelector(".textM").classList.add("textM4");
+//   document.querySelector(".textM").innerText = `<div class="textM textM2"> Dispose d'un socle pour le recharger (permet faire une statue !) </p></div><p>`;
+// };
 
-//document.querySelector(".Image1").addEventListener("mouseleave", texte1_1);
+// //document.querySelector(".Image1").addEventListener("mouseleave", texte1_1);
 
-function texte1_1(){
-    document.querySelector(".textM").classList.remove("textM4");
-    document.querySelector(".textM").innerText += `<div class="textM textM2"></div>`;
-};
+// function texte1_1(){
+//     document.querySelector(".textM").classList.remove("textM4");
+//     document.querySelector(".textM").innerText += `<div class="textM textM2"></div>`;
+// };
 
 
 
