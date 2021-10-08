@@ -26,7 +26,11 @@ class propotialStyle {
         };
         // }
     }
+
+
 }
+
+console.log(document.querySelector(".fond").nextElementSibling);
 new propotialStyle({
     target: ".casque",
     reference: "#fond",
@@ -35,3 +39,19 @@ new propotialStyle({
         "transform": "translate(${coef*40}vw, ${coef*45}vw) rotate(${coef*45}deg)"
     }
 })
+
+
+
+document.querySelector(".images>.bouton").addEventListener("click", anime)
+
+function anime(){
+    document.querySelector(".left").classList.toggle("left2");
+    document.querySelector(".right").classList.toggle("right2");
+    document.querySelector(".images>.bouton").classList.toggle("bouton2");
+    document.querySelector(".Image1").classList.toggle("image1_1");
+    document.querySelector(".Image3").classList.toggle("image3_3");
+    document.querySelector(".lien").classList.toggle("lien2");
+    document.querySelector(".Sp").classList.toggle("Sp2")
+}
+
+document.querySelector(".lien").addEventListener("click", anime)
